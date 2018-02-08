@@ -1,0 +1,52 @@
+Database:
+
+
+
+Bus details:
+1. Bus id UUID
+2. Operator id UUID
+3. Semi sleeper Integer
+4. sleeper Integer
+5. Seater Integer
+6. Volvo Boolean
+7. class of service(AC/NON-AC)
+8. Capacity Integer 
+9. Route id UUID
+
+Route details:
+1. Route id UUID
+2. Starting point String
+3. Destination String
+4. Path ENUM
+5. Total distance Integer
+6. Boarding point ENUM
+7. Dropping point ENUM
+8. Bus ids UUID[] 
+
+Operator Details:
+1. Operator id UUID
+2. Operator name String
+3. Branch and address ENUM
+4. Operator's Bus ids UUID[]
+5. Operator's Route ids UUID[]
+6. Phone number String
+7. mail String
+8. pickup Boolean
+
+Current status:
+1. Bus id
+2. Booked Seaters
+3. Booked Semi sleeper
+4. Booked Sleeper
+5. Actual rate
+6. Offer rate
+7. Total rate
+
+Booking details:
+1. user name
+2. Display name
+3. user mobile number
+4. Bus id
+5 Boarding Point
+6. Droping point
+ 
