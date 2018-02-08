@@ -1,6 +1,5 @@
-Database:
-
-
+Database: Intelli-book
+Tables:
 
 Bus details:
 1. Bus id UUID
