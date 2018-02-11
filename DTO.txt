@@ -33,19 +33,54 @@ Operator Details:
 8. pickup Boolean
 
 Current status:
-1. Bus id
-2. Booked Seaters
-3. Booked Semi sleeper
-4. Booked Sleeper
-5. Actual rate
-6. Offer rate
-7. Total rate
+1. Bus id UUID
+2. Booked Seaters INT
+3. Booked Semi sleeper INT
+4. Booked Sleeper INT
+5. Actual rate DOUBLE
+6. Offer rate DOUBLE
+7. Total rate DOUBLE
 
 Booking details:
-1. user name
-2. Display name
-3. user mobile number
-4. Bus id
-5 Boarding Point
-6. Droping point
- 
+1. passenger name NVARCHAR
+2. gender NVARCHAR
+3. passenger mobile number NVARCHAR
+4. Bus id UUID
+5. Boarding Point NVARCHAR
+6. Dropping point NVARCHAR
+7. start time TIME
+
+Booking status:
+1. user id UUID
+2. bus id UUID
+3. route id UUID
+4. status NVARCHAR
+5. amount DOUBLE
+6. seat information NVARCHAR
+7. seat type NVARCHAR
+
+User profile:
+1. user id UUID
+2. user name NVARCHAR
+3. gender NVARCHAR
+4. mobile NVARCHAR
+5. email id NVARCHAR
+6. dob DATE
+
+Journey details:
+1. journey id UUID
+2. bus id UUID
+3. route id UUID
+4. Date of journey DATE
+5. start time TIME
+6. starting point NVARCHAR
+7. destination point NVCARCHAR
+8. no of passengers INT
+
+Cancellation details:
+1. cancel id UUID
+2. journey id UUID
+3. user id UUID
+4. reason for cancellation NVARCHAR
+5. refund DOUBLE
+6. time to journey TIME
