@@ -4,8 +4,8 @@ import java.util.UUID;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.intellingens.busbooker.bizcore.entity.practice.PracticeEntity;
+import com.intellingens.busbooker.bizcore.entity.practice.BusDetailsEntity;
 
-public interface PracticeRepository extends CrudRepository<PracticeEntity, UUID> {
+public interface PracticeRepository extends CrudRepository<BusDetailsEntity, UUID> {
 
 }
