@@ -6,6 +6,8 @@ import java.util.UUID;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+import com.intellingens.busbooker.bizcore.enums.AvailabilityStatusEnum;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -24,5 +26,7 @@ public class RouteEntity {
 	private int totalDistance;
 	private Map<String,String> boardingPoints;
 	private Map<String,String> droppingPoints;
+	private AvailabilityStatusEnum availableDays;
+	private Long startTime;
 
 }
