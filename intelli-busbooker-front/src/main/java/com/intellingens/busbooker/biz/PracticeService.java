@@ -1,4 +1,4 @@
-package com.intellingens.busbooker.biz.practice;
+package com.intellingens.busbooker.biz;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,7 +7,7 @@ import java.util.UUID;
 
 import org.springframework.stereotype.Service;
 
-import com.intellingens.busbooker.bizcore.entity.practice.BusDetailsEntity;
+import com.intellingens.busbooker.bizcore.entity.BusDetailsEntity;
 
 @Service
 public class PracticeService {

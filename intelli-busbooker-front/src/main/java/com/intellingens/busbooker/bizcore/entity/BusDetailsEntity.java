@@ -1,4 +1,4 @@
-package com.intellingens.busbooker.bizcore.entity.practice;
+package com.intellingens.busbooker.bizcore.entity;
 
 import java.util.UUID;
 
